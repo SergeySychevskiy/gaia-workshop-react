@@ -5,6 +5,7 @@ export default createUseStyles({
     padding: 10,
     width: 414,
     height: 820,
+    boxSizing: 'border-box',
     backgroundColor: 'white',
     borderRadius: 30,
     boxShadow: '0px 0px 20px #6f6f6f',
