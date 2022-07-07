@@ -1,7 +1,7 @@
-import { createUseStyles } from 'react-jss';
+import { createStyles } from '@stryberventures/gaia-react.theme';
 
-export default createUseStyles({
+export default createStyles((theme) => ({
   home: {
-  
+    color: theme.primary.main,
   },
-});
+}));

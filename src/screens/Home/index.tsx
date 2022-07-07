@@ -12,6 +12,8 @@ export const Home = () => {
     <Screen>
       <div className={classes.home}>
         Home
+        <br/>
+        <br/>
         <div>
           <Button label="Login" onClick={() => navigate('/login')}/>
         </div>
