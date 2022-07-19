@@ -2,7 +2,7 @@ import React from 'react';
 import useStyles from './styles';
 import Screen from '../../components/Screen';
 import { useNavigate } from 'react-router-dom';
-import { Button } from '@stryberventures/gaia-react.button';
+import Button from '@stryberventures/gaia-react.button';
 
 export const Home = () => {
   const classes = useStyles();
